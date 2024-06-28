@@ -26,6 +26,6 @@ docker run -ti --rm -p 8080:8080 ultralytics-pcba-model:local
    PCB Dataset Defect.v1-initital-ver.yolov8.zip
 2. 调用模型推理接口
 
-   `curl --location 'http://localhost:8080/' \
---form 'images=@"xxx/12_short_08_jpg.rf.cb1c21591b1952f754c510b329192c98.jpg"' \
+   `curl --location 'http://localhost:8080/'
+--form 'images=@"xxx/12_short_08_jpg.rf.cb1c21591b1952f754c510b329192c98.jpg"'
 --form 'images=@"xxx/12_spur_07_jpg.rf.e16007d5253256d437db4a50206f6665.jpg"'`
