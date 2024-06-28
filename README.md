@@ -22,8 +22,8 @@ docker run -ti --rm -p 8080:8080 ultralytics-pcba-model:local
 测试
 
 1. 下载pcba测试缺陷数据集
-
-   PCB Dataset Defect.v1-initital-ver.yolov8.zip
+   
+[PCB Dataset Defect.v1-initital-ver.yolov8.zip](https://pcba-test.obs.cn-north-4.myhuaweicloud.com/PCB%20Dataset%20Defect.v1-initital-ver.yolov8.zip)
 2. 调用模型推理接口
 
    `curl --location 'http://localhost:8080/'
