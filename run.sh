@@ -1,0 +1,1 @@
+cd /usr/src/ultralytics && python3 serve.py
